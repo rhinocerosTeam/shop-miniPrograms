@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/club/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "snail"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/club/index",
+        "iconPath": "images/bottombar/nav_home.png",
+        "selectedIconPath": "images/bottombar/nav_home_s.png",
+        "text": "俱乐部"
+      },
+      {
+        "pagePath": "pages/club/index",
+        "iconPath": "images/bottombar/nav_home.png",
+        "selectedIconPath": "images/bottombar/nav_home_s.png",
+        "text": "俱乐部"
+      }
+      
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

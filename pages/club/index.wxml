@@ -1,0 +1,10 @@
+<!--pages/club/index.wxml-->
+<view class="cont" hover-class='hoverCont'>
+  <view class="text" hover-class='hoverText' hover-stop-propagation="{{false}}" hover-start-time="{{2000}}" hover-stay-time="{{3000}}"  >
+    <text bindtap="clickMe">{{a}}</text>
+  </view>
+
+<text>pages/club/index.wxml</text>
+<text>pages/club/index.wxml</text>
+</view>
+

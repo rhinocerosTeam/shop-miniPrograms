@@ -1,0 +1,10 @@
+/* pages/club/index.wxss */
+.cont{
+
+}
+.hoverCont{
+  background-color: red
+}
+.hoverText{
+  background-color: green
+}
