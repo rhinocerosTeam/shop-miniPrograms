@@ -1,17 +1,18 @@
 {
   "pages": [
+    "pages/goods/index",
     "pages/club/index"
   ],
   "window": {
-    "navigationBarTitleText": "snail"
+    "navigationBarTitleText": "bangji"
   },
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/club/index",
+        "pagePath": "pages/goods/index",
         "iconPath": "images/bottombar/nav_home.png",
         "selectedIconPath": "images/bottombar/nav_home_s.png",
-        "text": "俱乐部"
+        "text": "商品详情"
       },
       {
         "pagePath": "pages/club/index",
@@ -19,7 +20,6 @@
         "selectedIconPath": "images/bottombar/nav_home_s.png",
         "text": "俱乐部"
       }
-      
     ]
   },
   "networkTimeout": {
