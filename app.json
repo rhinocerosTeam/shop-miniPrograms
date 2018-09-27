@@ -1,24 +1,40 @@
 {
   "pages": [
+    "pages/category/index",
+    "pages/home/index",
     "pages/goods/index",
-    "pages/club/index"
+    "pages/user/index",
+    "pages/shop/index"
   ],
   "window": {
-    "navigationBarTitleText": "bangji"
+    "navigationBarTitleText": "邦基商贸"
   },
   "tabBar": {
+    "selectedColor": "#ff6700",
     "list": [
       {
-        "pagePath": "pages/goods/index",
-        "iconPath": "images/bottombar/nav_home.png",
-        "selectedIconPath": "images/bottombar/nav_home_s.png",
-        "text": "商品详情"
+        "pagePath": "pages/home/index",
+        "iconPath": "images/bottombar/home.png",
+        "selectedIconPath": "images/bottombar/home-active.png",
+        "text": "首页"
       },
       {
-        "pagePath": "pages/club/index",
-        "iconPath": "images/bottombar/nav_home.png",
-        "selectedIconPath": "images/bottombar/nav_home_s.png",
-        "text": "俱乐部"
+        "pagePath": "pages/category/index",
+        "iconPath": "images/bottombar/category.png",
+        "selectedIconPath": "images/bottombar/category-active.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/shop/index",
+        "iconPath": "images/bottombar/shop.png",
+        "selectedIconPath": "images/bottombar/shop-active.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "images/bottombar/me.png",
+        "selectedIconPath": "images/bottombar/me-active.png",
+        "text": "我的"
       }
     ]
   },

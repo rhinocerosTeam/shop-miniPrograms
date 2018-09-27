@@ -1,0 +1,62 @@
+<!--pages/category/index.wxml-->
+<view class="categoryCont">
+  <scroll-view class="menuBox" scroll-y>
+    <text>手机</text>
+    <text>电脑</text>
+    <text>平板</text>
+    <text>礼品</text>
+    <text>风筝</text>
+    <text>游戏机</text>
+    <text>电冰箱</text>
+    <text>手机</text>
+    <text>电脑</text>
+    <text>平板</text>
+    <text>礼品</text>
+    <text>风筝</text>
+    <text>游戏机</text>
+    <text>电冰箱</text>
+    <text>手机</text>
+    <text>电脑</text>
+    <text>平板</text>
+    <text>礼品</text>
+    <text>风筝</text>
+    <text>游戏机</text>
+    <text>电冰箱</text>
+    <text>手机</text>
+    <text>电脑</text>
+    <text>平板</text>
+    <text>礼品</text>
+    <text>风筝</text>
+    <text>游戏机</text>
+    <text>电冰箱</text>
+    <text>手机</text>
+    <text>电脑</text>
+    <text>平板</text>
+    <text>礼品</text>
+    <text>风筝</text>
+    <text>游戏机</text>
+    <text>电冰箱</text>
+  </scroll-view>
+  <scroll-view class="productBox" scroll-y>
+    <view>
+      <text class="title">——<text>手机</text>——</text>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+    </view>
+  </scroll-view>
+</view>
+

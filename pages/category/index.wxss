@@ -1,0 +1,58 @@
+/* pages/category/index.wxss */
+::-webkit-scrollbar
+{
+width: 0;
+height: 0;
+color: transparent;
+} 
+.categoryCont{
+  display: flex;
+  flex-direction: row;
+}
+.menuBox{
+  width: 160rpx;
+  font-size: 30rpx;
+  text-align: center;
+  line-height: 90rpx;
+  border-right: 1px solid #f9f9f9;
+  height: 100vh;
+  display: block;
+}
+.menuBox text{
+  color: #4b4b4b;
+  display: block;
+}
+.productBox{
+  width: 590rpx;
+  padding: 20rpx;
+}
+.productBox .title{
+  display: block;
+  text-align: center;
+  margin-top: 60rpx;
+  font-size: 30rpx;
+  color: #dcdcdc;
+}
+.productBox .title text{
+  color: #3a3a3a;
+  display: inline-block;
+  padding:0  50rpx ;
+}
+
+.item{
+  width: 146rpx;
+  display: inline-block;
+}
+.item image{
+  width: 100%;
+  height: 120rpx;
+}
+.item text{
+  width: 146rpx;
+  font-size: 22rpx;
+  color: #858585;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  display: block;
+}
