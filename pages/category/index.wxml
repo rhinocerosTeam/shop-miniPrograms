@@ -38,7 +38,102 @@
     <text>电冰箱</text>
   </scroll-view>
   <scroll-view class="productBox" scroll-y>
-    <view>
+    <view class="categoryDetail">
+      <text class="title">——<text>手机</text>——</text>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+    </view>
+    <view class="categoryDetail">
+      <text class="title">——<text>手机</text>——</text>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+    </view>
+    <view class="categoryDetail">
+      <text class="title">——<text>手机</text>——</text>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+    </view>
+    <view class="categoryDetail">
+      <text class="title">——<text>手机</text>——</text>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+    </view>
+    <view class="categoryDetail">
+      <text class="title">——<text>手机</text>——</text>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+      <view class="item">
+        <image src="../../images/category/product.png"></image>
+        <text>小米8 屏屏幕瓶屏幕瓶幕瓶</text>
+      </view>
+    </view>
+    <view class="categoryDetail">
       <text class="title">——<text>手机</text>——</text>
       <view class="item">
         <image src="../../images/category/product.png"></image>
