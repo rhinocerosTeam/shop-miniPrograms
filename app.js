@@ -1,11 +1,11 @@
 App({
   // 监听小程序初始化 只触发一次
   onLaunch: (options)=>{
-    console.log(options)
+    console.log('onLaunch-->',options)
   },
   // 监听小程序显示
   onShow: (options)=>{
-    console.log(options)
+    console.log('onShow-->',options)
   },
   // 监听小程序隐藏
   onHide:()=>{

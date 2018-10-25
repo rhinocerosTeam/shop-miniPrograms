@@ -1,0 +1,48 @@
+<!--pages/goods/index.wxml-->
+<view class="body">
+<!-- 轮播图 -->
+<view class="swiper">
+  <swiper indicator-dots="{{indicatorDots}}"  >
+    <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<!-- 基本信息 -->
+<view class="baseinfo">
+  <view class="baseinfo-name">
+  <text>一叶子鲜补水保湿柔肤水70ml（80元3瓶）一叶子鲜补水保湿柔肤水70ml（80元3瓶）一叶子鲜补水保湿柔肤水70ml（80元3瓶）</text>
+  </view>
+  <view class="baseinfo-price">
+    <text class="price">¥80</text>
+    <text class="oldPrice">¥112</text>
+    <text class="saleNum">销量：7件</text>
+  </view>
+ 
+</view>
+
+
+<view class="swicthCont">
+  <view bindtap="isShow" class="{{!show?'active':''}}"> 概述</view>
+  <view bindtap="isShow" class="{{show?'active':''}}"> 参数</view>
+</view>
+
+<!-- 商品详情 -->
+<view class="goodesDetail" hidden='{{show}}'>
+    <block wx:for="{{imgUrls}}" wx:key="{{index}}">   
+        <image src="{{item}}"  class="detail-img"/>
+    </block>
+</view>
+<!-- 参数详情 -->
+<view class="configDetail" hidden='{{!show}}'>
+ udfghfhdfthiuiuiiuuiui参数详情参数详情参数详情参数详情参数详情参数详情参数详情参数详情参数详情
+</view>
+<!-- 底部按钮 -->
+<view class="footer-btn">
+  <button class="shopCar">购物车</button>
+  <button class="shopCar_jion">加入购物车</button>
+  <button class="buy">立即购买</button>
+</view>
+</view>

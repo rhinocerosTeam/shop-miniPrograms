@@ -1,0 +1,5 @@
+<!--pages/index/index.wxml-->
+<view>
+<model inner-text="wozai"></model>
+</view>
+
