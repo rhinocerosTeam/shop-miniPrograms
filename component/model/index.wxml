@@ -44,9 +44,26 @@
 </view>
 <!-- 一张图片 -->
 
+<image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="one_pic" ></image>
+
 <!-- 三张图片 -->
 
+<view class="more_pic">
+  <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="one"></image>
+  <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="two"></image>
+  <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="three"></image>
+</view>
+
 <!-- 产品展示图 1 每行两个 共三行 -->
+
+<view class="productModel_1">
+<view class='product'>
+<image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" ></image>
+<text>卫生纸</text>
+<text>￥1233</text>
+</view>
+</view>
+
 
 <!-- 产品展示图 2 每行一个 -->
 

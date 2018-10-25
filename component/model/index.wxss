@@ -1,8 +1,10 @@
 /* component/model/index.wxss */
+/* swiper */
 .swiper-cont image{
   width: 100%;
   height: 100%;
 }
+/* 分类 */
 .sort-cont{
   display: flex;
   flex-direction: row;
@@ -24,4 +26,36 @@
   font-size: 26rpx;
   color: #b3b3b3;
   text-align: center;
+}
+
+/* one pic */
+.one_pic{
+  width: 100%;
+}
+
+/* 多张图 */
+.more_pic {
+  position: relative;
+  height: 400rpx;
+}
+.more_pic .one{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375rpx;
+  height: 400rpx;
+}
+.more_pic .two{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 375rpx;
+  height: 200rpx;
+}
+.more_pic .three{
+  position: absolute;
+  top: 200rpx;
+  right: 0;
+  width: 375rpx;
+  height: 200rpx;
 }
