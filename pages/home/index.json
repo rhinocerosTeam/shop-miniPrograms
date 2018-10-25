@@ -1,3 +1,6 @@
 {
-  "navigationBarBackgroundColor":"#ff6700"
+  "navigationBarBackgroundColor":"#ff6700",
+  "usingComponents":{
+    "model":"/component/model/index"
+  }
 }

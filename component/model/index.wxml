@@ -1,2 +1,57 @@
-<!--component/model/index.wxml-->
-<text>component/model/index.wxml</text>
+<!--模板 组件-->
+<view>
+<!-- 轮播图 -->
+<view class="swiper-cont">
+  <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<!-- 分类 -->
+<view class="sort-cont">
+  <view class="item">
+     <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+     <text>袜子</text>
+  </view>
+   <view class="item">
+     <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+     <text>袜子</text>
+  </view>
+   <view class="item">
+     <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+     <text>袜子</text>
+  </view>
+   <view class="item">
+     <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+     <text>袜子</text>
+  </view>
+   <view class="item">
+     <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+     <text>袜子</text>
+  </view>
+   <view class="item">
+     <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+     <text>袜子</text>
+  </view>
+   <view class="item">
+     <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+     <text>袜子</text>
+  </view>
+</view>
+<!-- 一张图片 -->
+
+<!-- 三张图片 -->
+
+<!-- 产品展示图 1 每行两个 共三行 -->
+
+<!-- 产品展示图 2 每行一个 -->
+
+<text>属性：{{innerText}}</text>
+<text>data:{{comData}}</text>
+<slot></slot>
+</view>
+

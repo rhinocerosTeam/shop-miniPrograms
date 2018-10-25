@@ -1,12 +1,10 @@
 {
   "pages": [
-    "pages/category/index",
     "pages/home/index",
+    "pages/category/index",
     "pages/goods/index",
     "pages/user/index",
-    "pages/shop/index",
-    "component/model",
-    "component/model/index"
+    "pages/shop/index"
   ],
   "window": {
     "navigationBarTitleText": "邦基商贸"
