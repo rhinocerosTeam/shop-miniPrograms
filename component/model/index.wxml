@@ -58,7 +58,22 @@
 
 <view class="productModel_1">
 <view class='product'>
-<image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" ></image>
+<image class="proimg" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" ></image>
+<text>卫生纸</text>
+<text>￥1233</text>
+</view>
+<view class='product'>
+<image class="proimg" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" ></image>
+<text>卫生纸</text>
+<text>￥1233</text>
+</view>
+<view class='product'>
+<image class="proimg" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" ></image>
+<text>卫生纸</text>
+<text>￥1233</text>
+</view>
+<view class='product'>
+<image class="proimg" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" ></image>
 <text>卫生纸</text>
 <text>￥1233</text>
 </view>

@@ -59,3 +59,22 @@
   width: 375rpx;
   height: 200rpx;
 }
+
+.productModel_1{
+  display: flex;
+  flex-wrap:wrap;
+}
+.product{
+  width: 355rpx;
+  margin-left: 15rpx;
+
+}
+.product .proimg{
+  width: 355rpx;
+  height: 355rpx;
+}
+.product text{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
