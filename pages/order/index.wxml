@@ -1,0 +1,37 @@
+<!--订单页-->
+<view>
+<view class="menu">
+<text>全部</text>
+<text>待付款</text>
+<text>待收货</text>
+<text>退换货</text>
+</view>
+<view class="box">
+  <view class="all">
+    <view class="product">
+    <view class="top">
+    <view>2018-09-26</view>
+    <view> 已收货</view>
+    </view>
+     <image></image>
+     <view class="desc">
+      <view class="info">
+        <text>最生活毛巾.Ari</text>
+        <text>￥69.00</text>
+      </view>
+      <view class="info">
+        <text>白色</text>
+        <text>x1</text>
+      </view>
+     </view>
+     <view class="bottom">
+      <text>共1件商品</text>
+      <text>实付金额:</text>
+      <text>￥69.0</text>
+     </view>
+    </view>
+    
+  </view>
+</view>
+</view>
+

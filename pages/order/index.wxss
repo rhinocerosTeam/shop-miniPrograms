@@ -1,0 +1,52 @@
+/* pages/order/index.wxss */
+.menu{
+  display: flex;
+  height: 50rpx;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1rpx solid #eee;
+}
+.menu  text{
+  display: block;
+  width: 25%;
+  line-height: 50rpx;
+  font-size: 25rpx;
+  text-align: center;
+}
+.box{
+  background-color: #eee;
+}
+.product{
+  margin-top: 25rpx;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+.product .desc .info{
+  width: 650rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20rpx;
+}
+.product image{
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #eee;
+}
+.product .bottom{
+  width: 100%;
+  display: flex;
+  justify-content:  flex-end ;
+  border-bottom: 1rpx solid #eee;
+  border-top: 1rpx solid #eee;
+  font-size: 24rpx;
+}
+.top{
+  width: 100%;
+  display: flex;
+  justify-content:space-between ;
+  border-bottom: 1rpx solid #eee;
+  font-size: 24rpx;
+}
