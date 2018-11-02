@@ -14,66 +14,66 @@
 <!-- 分类 -->
 <view class="sort-cont">
   <view class="item">
-     <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+     <image src="../../images/user/project.jpg"></image>
      <text>袜子</text>
   </view>
    <view class="item">
-     <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+     <image src="../../images/user/project.jpg"></image>
      <text>袜子</text>
   </view>
    <view class="item">
-     <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+     <image src="../../images/user/project.jpg"></image>
      <text>袜子</text>
   </view>
    <view class="item">
-     <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+     <image src="../../images/user/project.jpg"></image>
      <text>袜子</text>
   </view>
    <view class="item">
-     <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+     <image src="../../images/user/project.jpg"></image>
      <text>袜子</text>
   </view>
    <view class="item">
-     <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+     <image src="../../images/user/project.jpg"></image>
      <text>袜子</text>
   </view>
    <view class="item">
-     <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+     <image src="../../images/user/project.jpg"></image>
      <text>袜子</text>
   </view>
 </view>
 <!-- 一张图片 -->
 
-<image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="one_pic" ></image>
+<image src="../../images/user/project.jpg" class="one_pic" ></image>
 
 <!-- 三张图片 -->
 
 <view class="more_pic">
-  <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="one"></image>
-  <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="two"></image>
-  <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="three"></image>
+  <image src="../../images/user/project.jpg" class="one"></image>
+  <image src="../../images/user/project.jpg" class="two"></image>
+  <image src="../../images/user/project.jpg" class="three"></image>
 </view>
 
 <!-- 产品展示图 1 每行两个 共三行 -->
 
 <view class="productModel_1">
 <view class='product'>
-<image class="proimg" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" ></image>
+<image class="proimg" src="../../images/user/project.jpg" ></image>
 <text>卫生纸</text>
 <text>￥1233</text>
 </view>
 <view class='product'>
-<image class="proimg" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" ></image>
+<image class="proimg" src="../../images/user/project.jpg" ></image>
 <text>卫生纸</text>
 <text>￥1233</text>
 </view>
 <view class='product'>
-<image class="proimg" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" ></image>
+<image class="proimg" src="../../images/user/project.jpg" ></image>
 <text>卫生纸</text>
 <text>￥1233</text>
 </view>
 <view class='product'>
-<image class="proimg" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" ></image>
+<image class="proimg" src="../../images/user/project.jpg" ></image>
 <text>卫生纸</text>
 <text>￥1233</text>
 </view>
@@ -81,7 +81,12 @@
 
 
 <!-- 产品展示图 2 每行一个 -->
+<view class="productModel_2">
 
+<image src="../../images/user/project.jpg"></image>
+
+
+</view>
 <text>属性：{{innerText}}</text>
 <text>data:{{comData}}</text>
 <slot></slot>
