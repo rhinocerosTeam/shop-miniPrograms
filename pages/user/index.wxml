@@ -1,2 +1,13 @@
 <!--pages/user/index.wxml-->
-<text>pages/user/index.wxml</text>
+<view class="userContainer">
+  <view class="userInfo">
+    <view class='headImg'></view>
+    <view class="info">
+      <text class="nickname">木头人</text>
+      <text class="account">274874848</text>
+    </view>
+  </view>
+  <view class="order" bindtap="goOrderPage">
+    <image src="../../images/user/order.png"></image>我的订单
+  </view>
+</view>

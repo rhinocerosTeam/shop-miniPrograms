@@ -7,6 +7,15 @@ Page({
   data: {
 
   },
+  /**
+   * 去我的订单页面
+   */
+  goOrderPage(){
+    wx.navigateTo({
+      url: '../order/index?id=1&page=4',
+          
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载

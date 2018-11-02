@@ -1,1 +1,46 @@
 /* pages/user/index.wxss */
+page{
+  background-color: #ebebeb;
+  padding-top: 15rpx;
+}
+.userInfo{
+  padding: 15rpx;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+.userInfo .headImg{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100rpx;
+  background-color: #eee;
+  margin-right: 25rpx;
+}
+.userInfo .info text{
+  display: block;
+}
+.nickname{
+  margin-top: 10rpx;
+  font-size: 30rpx;
+  color: #0f0f0f;
+}
+.account{
+  margin-top: 10rpx;
+  font-size: 25rpx;
+  color: #dddddd;
+}
+.order{
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding-left: 25rpx;
+  margin-top: 15rpx;
+  font-size: 30rpx;
+  color: #0b0b0b;
+}
+.order image{
+  padding-right: 15rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
