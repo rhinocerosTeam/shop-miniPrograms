@@ -1,13 +1,13 @@
 <!--订单页-->
 <view>
 <view class="menu">
-<text>全部</text>
-<text>待付款</text>
-<text>待收货</text>
-<text>退换货</text>
+<text bindtap="selectMenu" data-index="0">全部</text>
+<text bindtap="selectMenu" data-index="1">待付款</text>
+<text bindtap="selectMenu" data-index="2">待收货</text>
+<text bindtap="selectMenu" data-index="3">退换货</text>
 </view>
 <view class="box">
-  <view class="all">
+  <view class="all" wx:if="{{activeIndex == 0}}">
     <view class="product">
     <view class="top">
     <view>2018-09-26</view>
@@ -31,6 +31,16 @@
      </view>
     </view>
     
+  
+  </view>
+  <view class="waitpay" wx:if="{{activeIndex == 1}}">
+  22
+  </view>
+  <view class="receivedGoods" wx:if="{{activeIndex == 2}}">
+  33
+  </view>
+  <view class="returns" wx:if="{{activeIndex == 3}}">
+  44
   </view>
 </view>
 </view>

@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+      activeIndex:0
   },
 
   /**
@@ -62,5 +62,12 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  selectMenu: function (event) {
+    let index = event.currentTarget.dataset.index
+    this.setData({
+      activeIndex: index
+    })
   }
 })
