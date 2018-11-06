@@ -1,0 +1,28 @@
+<!--pages/orderDetail/index.wxml-->
+<view class="orderDetail">
+<view class="statusPic"></view>
+<view class="address">
+<text>宋佩兰 15931693851</text>  
+<text class="adinfo">北京市 东城区 富莱茵花园13号楼 702</text>
+</view>
+<view class="product">
+    <view class="top">
+      <image></image>
+      <view class="desc">
+        <view class="info">
+          <text>最生活毛巾.Ari</text>
+          <text>￥69.00</text>
+        </view>
+        <view class="info">
+          <text>白色</text>
+          <text>x1</text>
+        </view>
+      </view>
+     </view>
+
+</view>
+<view class="orderMoney"></view>
+<view class="orderDetail"></view>
+<!-- 推荐 -->
+<view class="recommend"></view>
+</view>
